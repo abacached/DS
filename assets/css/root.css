@@ -1,0 +1,56 @@
+:root {
+    /* 
+        # COLORS
+    */
+
+    /* PRIMARY */
+    --color-primary:;
+    --color-primary_shade:;
+    --color-primary_tint:;
+    --color-primary_tintest:;
+
+    /* SECUNDARY */
+    --color-secundary:;
+    --color-secundary_shade:;
+    --color-secundary_tint:;
+    --color-secundary_tintest:;
+
+    /* TERTIARY */
+    --color-tertiary:;
+    --color-tertiary_shade:;
+    --color-tertiary_tint:;
+    --color-tertiary_tintest:;
+
+    /* FEEDBACK */
+    --color-feedback_success-white:;
+    --color-feedback_success-dark:;
+    --color-feedback_error-white:;
+    --color-feedback_error-dark:;
+    --color-feedback_warning-white:;
+    --color-feedback_warning-dark:;
+    --color-feedback_information-white:;
+    --color-feedback_information-dark:;
+
+    /* NEUTRAL */
+    --color-neutral_0:;
+    --color-neutral_10:;
+    --color-neutral_15:;
+    --color-neutral_20:;
+    --color-neutral_25:;
+    --color-neutral_30:;
+    --color-neutral_35:;
+    --color-neutral_40:;
+    --color-neutral_45;;
+    --color-neutral_50:;
+    --color-neutral_55:;
+    --color-neutral_60:;
+    --color-neutral_65:;
+    --color-neutral_70:;
+    --color-neutral_75:;
+    --color-neutral_80:;
+    --color-neutral_90:;
+    --color-neutral_95:;
+    --color-neutral_98:;
+    --color-neutral_99:;
+    --color-neutral_100:; 
+}
