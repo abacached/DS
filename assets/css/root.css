@@ -86,13 +86,13 @@
     --font-type-p_family:;
     --font-type-p_line-height: 1rem;
     --font-type-p_size: 0.875rem;
-    --font-type-p_weight:;
+    --font-type-p_weight: normal;
 
     /* TYPE BUTTON */
     --font-type-button_family:;
     --font-type-button_line-height: 1rem;
     --font-type-button_size: 1rem;
-    --font-type-button_weight:;
+    --font-type-button_weight: normal;
 
     /* 
         # ELEMENTS

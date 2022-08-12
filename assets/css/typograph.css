@@ -4,3 +4,21 @@ h1 {
     font-size: var(--font-type-h1_size, 2.25rem);
     font-weight: var(--font-type-h1_weight, bold);
 }
+h2 {
+    font-family: var(--font-type-h2_family, Arial, Helvetica, sans-serif);
+    line-height: var(--font-type-h2_line-height, 2rem);
+    font-size: var(--font-type-h2_size, 1.75rem);
+    font-weight: var(--font-type-h2_weight, bold);
+}
+h3 {
+    font-family: var(--font-type-h3_family, Arial, Helvetica, sans-serif);
+    line-height: var(--font-type-h3_line-height, 1.75rem);
+    font-size: var(--font-type-h3_size, 1.5rem);
+    font-weight: var(--font-type-h3_weight, bold);
+}
+p {
+    font-family: var(--font-type-p_family, Arial, Helvetica, sans-serif);
+    line-height: var(--font-type-p_line-height, 1rem);
+    font-size: var(--font-type-p_size, 0.875rem);
+    font-weight: var(--font-type-p_weight, normal);
+}
