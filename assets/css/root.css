@@ -60,45 +60,45 @@
 
     /* TYPE DISPLAY */
     --font-type-display_family:;
-    --font-type-display_line-height:;
-    --font-type-display_size:;
-    --font-type-display_weight:;
+    --font-type-display_line-height: 3.25rem;
+    --font-type-display_size: 2.75rem;
+    --font-type-display_weight: bold;
 
     /* TYPE H1 */
     --font-type-h1_family:;
-    --font-type-h1_line-height:;
-    --font-type-h1_size:;
-    --font-type-h1_weight:;
+    --font-type-h1_line-height: 2.75rem;
+    --font-type-h1_size: 2.25rem;
+    --font-type-h1_weight: bold;
 
     /* TYPE H2 */
     --font-type-h2_family:;
-    --font-type-h2_line-height:;
-    --font-type-h2_size:;
-    --font-type-h2_weight:;
+    --font-type-h2_line-height: 2rem;
+    --font-type-h2_size: 1.75rem;
+    --font-type-h2_weight: bold;
 
     /* TYPE H3 */
     --font-type-h3_family:;
-    --font-type-h3_line-height:;
-    --font-type-h3_size:;
-    --font-type-h3_weight:;
+    --font-type-h3_line-height: 1.75rem;
+    --font-type-h3_size: 1.5rem;
+    --font-type-h3_weight: bold;
 
     /* TYPE P */
     --font-type-p_family:;
-    --font-type-p_line-height:;
-    --font-type-p_size:;
+    --font-type-p_line-height: 1rem;
+    --font-type-p_size: 0.875rem;
     --font-type-p_weight:;
 
     /* TYPE BUTTON */
     --font-type-button_family:;
-    --font-type-button_line-height:;
-    --font-type-button_size:;
+    --font-type-button_line-height: 1rem;
+    --font-type-button_size: 1rem;
     --font-type-button_weight:;
 
     /* 
         # ELEMENTS
     */
 
-    --element-spacing:;
-    --element-border_radius:;
-    --element-boder_width:;
+    --element-spacing: 1.5rem;
+    --element-border_radius: 1rem;
+    --element-boder_width: 0;
 }
