@@ -58,8 +58,11 @@
         # FONTS
     */
 
+    /* FONT FAMILY RESET */
+    --font-family: Lexend-Regular;
+
     /* TYPE DISPLAY */
-    --font-type-display_family:;
+    --font-type-display_family: Lexend-Black;
     --font-type-display_line-height: 3.25rem;
     --font-type-display_size: 2.75rem;
     --font-type-display_weight: bold;
