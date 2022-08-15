@@ -1,24 +1,28 @@
 h1 {
-    font-family: var(--font-type-h1_family, Arial, Helvetica, sans-serif);
-    line-height: var(--font-type-h1_line-height, 2.75rem);
-    font-size: var(--font-type-h1_size, 2.25rem);
-    font-weight: var(--font-type-h1_weight, bold);
+    font-family: var(--h1-font_family, Arial, Helvetica, sans-serif);
+    font-size: var(--h1-font_size, 2.25rem);
+    font-weight: var(--h1-font_weight, bold);
+    line-height: var(--h1-line_height, 2.75rem);
 }
 h2 {
-    font-family: var(--font-type-h2_family, Arial, Helvetica, sans-serif);
-    line-height: var(--font-type-h2_line-height, 2rem);
-    font-size: var(--font-type-h2_size, 1.75rem);
-    font-weight: var(--font-type-h2_weight, bold);
+    font-family: var(--h2-font_family, Arial, Helvetica, sans-serif);
+    font-size: var(--h2-font_size, 1.75rem);
+    font-weight: var(--h2-font_weight, bold);
+    line-height: var(--h2-line_height, 2rem);
 }
 h3 {
-    font-family: var(--font-type-h3_family, Arial, Helvetica, sans-serif);
-    line-height: var(--font-type-h3_line-height, 1.75rem);
-    font-size: var(--font-type-h3_size, 1.5rem);
-    font-weight: var(--font-type-h3_weight, bold);
+    font-family: var(--h3-font_family, Arial, Helvetica, sans-serif);
+    font-size: var(--h3-font_size, 1.5rem);
+    font-weight: var(--h3-font_weight, bold);
+    line-height: var(--h3-line_height, 1.75rem);
 }
 p {
-    font-family: var(--font-type-p_family, Arial, Helvetica, sans-serif);
-    line-height: var(--font-type-p_line-height, 1rem);
-    font-size: var(--font-type-p_size, 0.875rem);
-    font-weight: var(--font-type-p_weight, normal);
+    font-family: var(--p-font_family, Arial, Helvetica, sans-serif);
+    font-size: var(--p-font_size, 0.875rem);
+    font-weight: var(--p-font_weight, normal);
+    line-height: var(--p-line_height, 1rem);
+}
+strong {
+    font-family: var(--font-family_lexend-bold, Arial, Helvetica, sans-serif);
+    font-weight: bold;
 }

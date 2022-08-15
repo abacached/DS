@@ -59,49 +59,64 @@
     */
 
     /* FONT FAMILY RESET */
-    --font-family: Lexend-Regular;
+    --font-family_lexend-thin: Lexend-Thin;
+    --font-family_lexend-light: Lexend-Light;
+    --font-family_lexend-extra-light: Lexend-ExtraLight;
+    --font-family_lexend-regular: Lexend-Regular;
+    --font-family_lexend-medium: Lexend-Medium;
+    --font-family_lexend-semi-bold: Lexend-SemiBold;
+    --font-family_lexend-bold: Lexend-Bold;
+    --font-family_lexend-extra-bold: Lexend-ExtraBold;
+    --font-family_lexend-black: Lexend-Black;
 
     /* TYPE DISPLAY */
-    --font-type-display_family: Lexend-Black;
-    --font-type-display_line-height: 3.25rem;
-    --font-type-display_size: 2.75rem;
-    --font-type-display_weight: bold;
+    --display-font_family: Lexend-Black;
+    --display-font_size: 2.75rem;
+    --display-font_weight: bold;
+    --display-line_height: 3.25rem;
 
     /* TYPE H1 */
-    --font-type-h1_family:;
-    --font-type-h1_line-height: 2.75rem;
-    --font-type-h1_size: 2.25rem;
-    --font-type-h1_weight: bold;
+    --h1-font_family: Lexend-Bold;
+    --h1_font_size: 2.25rem;
+    --h1_font_weight: bold;
+    --h1-line_height: 2.75rem;
 
     /* TYPE H2 */
-    --font-type-h2_family:;
-    --font-type-h2_line-height: 2rem;
-    --font-type-h2_size: 1.75rem;
-    --font-type-h2_weight: bold;
+    --h2-font_family: Lexend-Bold;
+    --h2-font_size: 1.75rem;
+    --h2-font_weight: bold;
+    --h2-line_height: 2rem;
 
     /* TYPE H3 */
-    --font-type-h3_family:;
-    --font-type-h3_line-height: 1.75rem;
-    --font-type-h3_size: 1.5rem;
-    --font-type-h3_weight: bold;
+    --h3-font_family: Lexend-Bold;
+    --h3-font_size: 1.5rem;
+    --h3-font_weight: bold;
+    --h3-line_height: 1.75rem;
 
     /* TYPE P */
-    --font-type-p_family:;
-    --font-type-p_line-height: 1rem;
-    --font-type-p_size: 0.875rem;
-    --font-type-p_weight: normal;
-
-    /* TYPE BUTTON */
-    --font-type-button_family:;
-    --font-type-button_line-height: 1rem;
-    --font-type-button_size: 1rem;
-    --font-type-button_weight: normal;
+    --p-font_family: Lexend-Regular;
+    --p-font_size: 0.875rem;
+    --p-font_weight: normal;
+    --p-line_height: 1rem;
 
     /* 
         # ELEMENTS
     */
 
-    --element-spacing: 1.5rem;
-    --element-border_radius: 1rem;
-    --element-boder_width: 0;
+    /* 
+        ## BUTTON DEFAULT
+        ### Class -> .bt 
+    */
+    --button-background_color: hsla(0, 0%, 90%, 1);
+    --button-boder: none;
+    --button-border_radius: 16px;
+    --button-color: hsla(0, 0%, 0%, 1);
+    --button-cursor: pointer;
+    --button-font_family: Lexend-Regular;
+    --button-font_size: 1rem;
+    --button-font_weight: normal;
+    --button-gap: 12px;
+    --button-line_height: 1rem;
+    --button-padding: 12px 16px;
+    --button-pointer_events: auto;
 }
