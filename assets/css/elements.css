@@ -1,7 +1,9 @@
 button,
+input[type="button"],
+input[type="submit"],
 .bt {
     background-color: var(--button-background_color, hsla(0, 0%, 90%, 1));
-    border: var(--button-border, none);
+    border: var(--button-border, 2px solid hsla(0, 0%, 90%, 1));
     border-radius: var(--button-border_radius, 16px);
     color: var(--button-color, hsla(0, 0%, 0%, 1));
     cursor: var(--button-cursor, pointer);
@@ -13,9 +15,42 @@ button,
     line-height: var(--button-line_height, 1rem);
     padding: var(--button-padding, 12px 16px);
     pointer-events: var(--button-pointer_events, auto);
+    -webkit-transition: var(--transition, all .3s ease-in-out);
+    -moz-transition: var(--transition, all .3s ease-in-out);
+    -ms-transition: var(--transition, all .3s ease-in-out);
+    -o-transition: var(--transition, all .3s ease-in-out);
+    transition: var(--transition, all .3s ease-in-out);
 }
-button[disabled] {
-    --button-background_color: hsla(0, 0%, 90%, 1);
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+.bt:hover {
+    --button-background_color: var(--color-neutral_80, hsla(0, 0%, 80%, 1));
+    --button-border: 2px solid var(--color-neutral_80, hsla(0, 0%, 80%, 1));
+    --button-color: hsla(0, 0%, 10%, 1);
+}
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+.bt:focus {
+    --button-border: 2px solid var(--color-feedback_information-white, hsla(208, 100%, 38%, 1));
+    --button-color: var(--color-neutral_15, hsla(0, 0%, 15%, 1));
+}
+button:active,
+button.active,
+input[type="button"]:active,
+input[type="submit"]:active,
+.bt:active {
+    --button-background_color: var(--color-neutral_80, hsla(0, 0%, 80%, 1));
+    --button-border: 2px solid var(--color-neutral_10, hsla(0, 0%, 10%, 1));
+    --button-color: var(--color-neutral_10, hsla(0, 0%, 10%, 1));
+}
+button[disabled],
+input[type="button"][disabled],
+input[type="submit"][disabled],
+.bt[disabled] {
+    --button-background_color: var(--color-neutral_90, hsla(0, 0%, 90%, 1));
+    --button-border: 2px solid var(--color-neutral_90, hsla(0, 0%, 90%, 1));
     --button-cursor: not-allowed;
-    --button-color: hsla(0, 0%, 60%, 1);
+    --button-color: var(--color-newutral_50, hsla(0, 0%, 50%, 1));
 }
