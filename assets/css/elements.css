@@ -2,8 +2,9 @@ button,
 input[type="button"],
 input[type="submit"],
 .bt {
+    align-items: center;
     background-color: var(--button-background_color, hsla(0, 0%, 90%, 1));
-    border: var(--button-border, 2px solid hsla(0, 0%, 90%, 1));
+    border: var(--button-border, 2px solid hsla(0, 0%, 10%, 1));
     border-radius: var(--button-border_radius, 16px);
     color: var(--button-color, hsla(0, 0%, 0%, 1));
     cursor: var(--button-cursor, pointer);
@@ -26,8 +27,8 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 .bt:hover {
     --button-background_color: var(--color-neutral_80, hsla(0, 0%, 80%, 1));
-    --button-border: 2px solid var(--color-neutral_80, hsla(0, 0%, 80%, 1));
-    --button-color: hsla(0, 0%, 10%, 1);
+    --button-border: 2px solid var(--color-neutral_10, hsla(0, 0%, 10%, 1));
+    --button-color: var(--color-neutral_10, hsla(0, 0%, 10%, 1));
 }
 button:focus,
 input[type="button"]:focus,
