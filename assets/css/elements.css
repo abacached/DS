@@ -1,3 +1,6 @@
+/* 
+    # Buttons
+*/
 button,
 input[type="button"],
 input[type="submit"],
@@ -55,3 +58,20 @@ input[type="submit"][disabled],
     --button-cursor: not-allowed;
     --button-color: var(--color-newutral_50, hsla(0, 0%, 50%, 1));
 }
+
+/* 
+    # Form
+*/
+input {
+    background-color: var(--input-background_color, hsla(0, 0%, 98%, 1));
+    border: var(--input-border, hsla(0, 0%, 15%, 1));
+    border-radius: var(--input-border_radius, 8px);
+    color: var(--input-color, hsla(0, 0%, 70%, 1));
+    padding: var(--input-padding, 8px 16px);
+}
+input:focus,
+input:active {
+    --input-border: 2px solid var(--color-feedback_information-white);
+    --input-color: var(--color-neutral_15);
+}
+input:disabled {}
