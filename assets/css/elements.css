@@ -62,7 +62,8 @@ input[type="submit"][disabled],
 /* 
     # Form
 */
-input {
+input,
+textarea {
     background-color: var(--input-background_color, hsla(0, 0%, 98%, 1));
     border: var(--input-border, hsla(0, 0%, 15%, 1));
     border-radius: var(--input-border_radius, 8px);
@@ -70,8 +71,19 @@ input {
     padding: var(--input-padding, 8px 16px);
 }
 input:focus,
-input:active {
+input:active,
+textarea:focus,
+textarea:active {
     --input-border: 2px solid var(--color-feedback_information-white);
     --input-color: var(--color-neutral_15);
 }
-input:disabled {}
+input:disabled,
+textarea:disabled {
+    --input-background_color: var(--color-neutral_90, hsla(0, 0%, 90%, 1));
+    --input-border: 2px solid var(--color-neutral_80, hsla(0, 0%, 80%, 1));
+    resize: none;
+}
+input.invalid,
+textarea.invalid {
+    --input-border: 2px solid var(--color-feedback_error-white, hsla(352, 72%, 44%, 1));
+}
